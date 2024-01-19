@@ -303,7 +303,7 @@
                 animeName = prompt('确认动画名:', animeName);
             }
 
-            let searchUrl = 'https://api.dandanplay.net/api/v2/search/episodes?anime=' + animeName + '&withRelated=true';
+            let searchUrl = 'https://api.9-ch.com/cors/https://api.dandanplay.net/api/v2/search/episodes?anime=' + animeName + '&withRelated=true';
             if (is_auto) {
                 searchUrl += '&episode=' + episode;
             }
